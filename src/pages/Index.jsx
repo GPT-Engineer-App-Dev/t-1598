@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { cn } from "@/lib/utils";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
@@ -50,7 +51,7 @@ const Index = () => {
           />
         </CardContent>
         <CardFooter>
-          <Button onClick={addTask}>Add Task</Button>
+          <Button onClick={addTask} className={cn("bg-green-500", "hover:bg-green-600")}>Add Task</Button>
         </CardFooter>
       </Card>
       <div className="mt-6">
