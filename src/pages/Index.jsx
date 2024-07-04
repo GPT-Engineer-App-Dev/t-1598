@@ -50,7 +50,7 @@ const Index = () => {
           />
         </CardContent>
         <CardFooter>
-          <Button variant="green" onClick={addTask}>Add Task</Button>
+          <Button className="bg-green-500 text-white" onClick={addTask}>Add Task</Button>
         </CardFooter>
       </Card>
       <div className="mt-6">
